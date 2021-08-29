@@ -3,5 +3,6 @@ CONTAINER_NAME=maxscale
 
 docker run \
 -d --rm --name $CONTAINER_NAME \
+-v $PWD/conf/maxscale.cnf:/etc/maxscale.cnf \
 --network host \
-mymaxscale
+mariadb/maxscale:2.5.13

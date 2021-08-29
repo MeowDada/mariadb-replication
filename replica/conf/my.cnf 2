@@ -1,5 +1,5 @@
 [mysqld]
-server_id=2
+server_id=11
 
 port=3306
 

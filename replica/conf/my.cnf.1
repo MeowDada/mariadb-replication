@@ -1,0 +1,14 @@
+[mysqld]
+server_id=10
+
+port=3306
+
+log-bin
+
+log-basename=replica
+
+log_slave_updates=ON
+
+binlog-format=mixed
+
+datadir=/var/lib/mysql
