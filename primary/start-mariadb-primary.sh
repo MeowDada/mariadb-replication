@@ -10,4 +10,4 @@ docker run \
 -p 4001:3306 \
 -e MARIADB_ROOT_USER=root \
 -e MARIADB_ROOT_PASSWORD=password \
-mariadb:10.5
+mariadb:10.6

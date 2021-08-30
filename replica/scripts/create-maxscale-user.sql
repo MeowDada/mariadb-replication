@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'maxscale'@'%' IDENTIFIED BY 'maxscale_pw';
+GRANT ALL PRIVILEGES ON *.* TO 'maxscale'@'%';
+FLUSH PRIVILEGES;
